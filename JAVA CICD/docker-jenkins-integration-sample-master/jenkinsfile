@@ -1,0 +1,23 @@
+Started by user shrihari
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/pipeline project
+Selected Git installation does not exist. Using Default
+The recommended git tool is: NONE
+No credentials specified
+Cloning the remote Git repository
+Cloning repository https://github.com/SHRIHARI-25/java-cicd-pipeline.git
+ > git init /var/lib/jenkins/workspace/pipeline project # timeout=10
+Fetching upstream changes from https://github.com/SHRIHARI-25/java-cicd-pipeline.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/SHRIHARI-25/java-cicd-pipeline.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/SHRIHARI-25/java-cicd-pipeline.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision f232a2fedd83ddd14fcb449e980033eee8bd0fd5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f232a2fedd83ddd14fcb449e980033eee8bd0fd5 # timeout=10
+Commit message: "message"
+First time build. Skipping changelog.
+Finished: SUCCESS
